@@ -1,0 +1,91 @@
+Networks:
+      Vulnerability- weakness
+      Tools:
+         CyberSecurity tools:
+                  hashcat- password cracking tools.
+                  BruteForce
+                 RAT-Remote Access Troger
+cybersecurity:
+    data
+    resource
+    safeguarding:
+        Physical control
+        Administration control
+        Logical control
+Port Scanning
+protocol-set of rules
+tcp and udp - connects the hardware and software and transfer the data
+tcp consists of 65535 ports 
+udp consists of 65535 ports
+http- work in 80(it is not safe)
+https - work in 443(SSL)(it is safe)
+block chain
+difference b/w http and https
+exploit
+sql injection
+session hijacking
+DNS 
+IP address
+cloud
+cryptography
+ARP Poisioning(Address Resolution Protocol)
+spoofing
+hashing
+metasploid
+backdoor
+hacking- gaining unauthorized access.
+ethical hacking-gaining unauthorized access with written permission.
+web application peneteration- web page hacking
+webpage, website, web application, web server
+web application- interaction with user
+carrier opportunities:
+    (red team) offensive(attackers)
+     (blue team)defensive(soc analyst)
+     (purple team)- offensive and defensive
+three types of hacker:
+       White hat- software architecture known by attackers
+       black hat- they are hackers
+       gray hat- combination of white and black hat
+       Script Kiddies- use the data available in internet and done it without knowing about it.
+       HACKTIVIST-hacking for social causes
+       state sponsered hackers- government sponsered hackers.
+  BYOD-Bring Your Own Device
+CIA traid:
+  C-Confidentiality
+  I-Integrity
+  A-Availability
+Authentication- to verify the identity of the people 
+Authorization or Access Control- to get permission to use it.
+Authentication is done by three ways:
+                 something you know(knowledege factor)
+                 something you have(using id cards)
+                 something you are(based on characters)
+above three if we use any two for authentication, then it is two factor
+above three if we use all three  for authentication, then it is multi factorfd
+UAC(User Access Control)-pop up message when we install software
+conversion of clear text to sipher text(human un understandable form)is called encryption
+Loss of control - (breach)
+even - observable occurance in a network or system
+exploit - A particular attack. 
+incident -  the affect of CIA 
+Intrusion - A security event
+Threat - Potiential to damage
+liklywood - occurance
+Risk - Threat + vulnearablitiy
+TOE - Target of Evoluation
+CIDR - Classless Inter Domain Rotation
+Ipv4
+192.168.1.1/24 -     TOE -32bit - 0-9
+Ipv6
+128bit-Hex-0-9
+LAN - It is connected with the one Subnet.
+WAN - It is connected with more than one Subnet.
+On windows path - ping 172.1.44.44
+On Linux path - ping 172.1.44.44 -c 4
+The option which have all the command
+Same network device to be get connection - Crossover
+Different device to be get connected - straight through
+Two router to be get connected - SerialDTE coaxial cable
+
+
+
