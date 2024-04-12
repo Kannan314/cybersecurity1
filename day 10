@@ -1,0 +1,21 @@
+Net discover:
+ - sudo netdiscover ip
+for range 
+- sudo netdiscover -r myip
+
+create directory and touch file target and store the output.
+
+NSE - nmap Scripting Engine
+- to scan prebuild vulnerability.
+
+verbosity  --> -v
+
+- sudo netdiscover 172.1.42.44/16
+- export target=172.1.42.44        
+- nmap $target -p1-65535 -v -min-rate=3000
+-p range
+-v Increase verbosity level (use -vv or more for greater effect)
+- nmap $target -p1-65535 -v -min-rate=3000 -Pn => to skip host discovery(Pn)
+- nmap $target -p1-65535 -v -min-rate=3000 -oN filename.txt => to save the output
+
+                                
