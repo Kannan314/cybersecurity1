@@ -1,0 +1,63 @@
+Vulnerability Assesment(VA) :
+  - Process of identifying, quantifying and prioritizing vulnerability within a system, network, application or org.
+
+Risk Matrix:
+ - Likelyhood : how many possibilites out of 10 the bug will detected.
+ - Impact
+
+Vulnerability Assesment Process:
+Assest Discovery -> Vulnerability Scanning -> Vulnerability Assesment -> Vulnerability Remedian.
+
+National Vulnerability Database
+
+Common Vulnerability Scoring System
+
+Severity          Severity Score Range
+None                      0.0
+Low                    0.1 - 3.9
+Medium                 4.0 - 6.9
+High                   7.0 - 8.9
+Critical               9.0 - 10.0
+
+*****Important Cyber Security Terms****
+Policy
+Procedure
+Standard
+Regulation :-created by GDBR
+
+SAST tool
+
+
+Penetration Testing:
+
+Process of hacking
+- Information Gathering
+- Threat Modeling
+- Vulnerability Analysis
+- Exploitation 
+- Post-Exploitation
+- Reporting
+
+5 phases
+- Information Gathering
+- Scanning
+- Gaining Access
+- Maintaining Access
+- Clearing Tracks
+
+
+Static Testing - Testing without deploying the code.
+Dynamic Testing - Testing with deploying the code.
+
+SQL Ingection
+Command the sql query to bypass the pass word.
+username'--  : It commands the queries. 
+
+' OR 1=1--
+
+******Important Vulnerability******
+Path Traversal / Directory Traversal
+
+
+linux: /etc/passwd
+windows: /WINDOWS/win.ini
