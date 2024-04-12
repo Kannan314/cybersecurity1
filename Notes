@@ -17,6 +17,138 @@ protocol-set of rules
 tcp and udp - connects the hardware and software and transfer the data
 tcp consists of 65535 ports 
 udp consists of 65535 ports
+
+Hashcat - This tool helps to cracking passwords or their hashes.
+
+Brute force - attackers using excessively forceful attempts to gain access to user accounts. 
+
+RAT (Remote Access Trojon) is malware an attacker uses to gain full administrative privileges and remote control of a target computer.
+
+Cybersecurity - secure the files, secure the resources, safeguard.
+
+Controls: 
+
+Physical controls
+Adminstrative controls
+Logical Controls
+
+Port - A port is a virtual point where network connections start and end. 
+
+Port Scanning -  a common technique hackers use to discover open doors or weak points in a network. 
+
+Protocols - Set of rules.
+
+TCP 65535 ports + UDP 65535 ports - Each ports are entry gates of the every device.
+
+https - 443 tcp port
+http - 80 port (not secure)
+
+Blockchain Security
+
+Exploit
+
+Sql Injection
+
+Session Hyjacking
+
+Phishing
+
+Trojon  Horse
+
+DNS
+
+Ip address
+
+Cloud
+
+Cryptography
+
+ARP poisoning
+
+Scoofing
+
+Hashing
+
+Encryption
+
+Meta Sploit
+
+Back Door
+
+Hacking - usually to gain unauthorized access to personal or organizational data.
+
+Ethical Hacking - Gaining unauthorized access with written concern.
+
+
+Web site
+Web page
+Web application
+Web server
+
+Two carrer opportunity
+Affensive
+Defensive: SOC (Security Operation Center) analyst
+
+red team - Affensive
+blue team - Defensive
+Purple team - Both Affensive and Defensive
+
+Types of hackers
+
+white hat - Software Architecture (blueprint of entire software) will be completely known to the attacker.
+black hat - Hackers not Ethical Hackers. 0 knowledge about the software trying to attack.
+grey hat - Kind of both Ethical hackers and Hackers.
+
+Ping
+
+script kiddies - watch tutorial and do wihtout any knowledge to run the code.
+
+Hacktivism - Hack for socail cause.
+
+State hackers - Government sponsered hackers.
+
+**What is CIA?
+Confidentality Integrity Availability
+
+Authentication - verify the identity of the user or person.
+
+Authorization or Access Control - permission for access.
+
+to verify someone identification 3 factors
+- something you know
+- something you have
+- something you are
+
+SSl - Secured Scoket Layer
+
+Threarts - Any circumstance or event with the potential to adversely impact organizational operation.
+
+Breach - The loss of control, compromise, unauthorized disclosure, unauthorized acquistion, or any similiar occurence where: a person other than ....
+
+Event - Any observable occurence in a network or system.
+
+Exploit - A particular attack, It is named this way because these attacks exploit system vulnerabilities
+
+Incident - Affect CIA is known as incident.
+
+Intrusion - 
+
+Vulnerability - Weakness in an information system. Internal commands or implemented that could be exploited by a threat source.
+
+Zero Day - A previously unknown system vulnerability with the potential of 
+
+What is network?
+    A network consists of two or more computers that are linked in order to share resources (such as printers and CDs), exchange files, or allow electronic communications. 
+The computers on a network may be linked through cables, telephone lines, radio waves, satellites, or infrared light beams.
+
+Network vulnerability:
+    Network vulnerability is the weakness of the network.
+
+DHCP:
+ - Dynamic Host Configuration Protocol (DHCP) is a client/server protocol that automatically provides an Internet Protocol (IP) host with its IP address and other related configuration information such as the subnet mask and default gateway.
+
+DNS:
+ - DNS, or the Domain Name System, translates human readable domain names (for example, www.amazon.com) to machine readable IP addresses (for example, 192.0.2.44).
 http- work in 80(it is not safe)
 https - work in 443(SSL)(it is safe)
 block chain
