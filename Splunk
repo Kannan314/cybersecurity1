@@ -1,0 +1,57 @@
+Open academy in vmware
+username: root
+pass : tcm
+
+ip link set dev ens33 up
+
+dhclient -v ens33
+
+now you can see the ip address for the academy
+
+GO to windows
+cmd :
+- ssh root@ipaddress
+- useradd -m splunkfwd
+- groupadd splunkfwd
+- export SPLUNK_HOME="/opt/splunkforwarder"
+- mkdir $SPLUNK_HOME
+
+then download splunk download for linux and copy that link
+
+paste in the terminal
+
+then use dpkg -i filename to install
+
+- chown -R splunkfwd:splunkfwd $SPLUNK_HOME
+- $SPLUNK_HOME/bin/splunk start --accept-license
+set administrator user name and pass
+
+then navigate to opt/splunkforward/bin
+
+then check status
+- ./splunk status
+Check it is runnning
+
+./splunk add forward-server 172.1.42.44:9997
+
+then put username pass created in cmd
+
+
+then goto splunk webpage
+localhost:8000 
+
+setting -> forwarding and receiving -> configure recieving -> add port 9997
+
+then 
+setting -> monitor console -> forwarders -> forwarder instance -> enable the setup
+
+then you can see the academy
+
+to check - ./splunk list forward-server
+
+similarly remove - ./splunk remove forward-server
+
+Add Firewall:
+go to windows defence firewall
+- in inbound rule -> add rule -> both udp and tcp of the port 9997
+- click property -> add specific ip or range to allow.
