@@ -1,0 +1,43 @@
+NAT - Network Address Translation:
+- Secure Network for linux os.
+- It provides diff subnet ip for linux to secure windows os.
+
+lo - loopback (act as a localhost)
+tun0 - tunnel0
+wlan0- wireless lan
+eth0 - ethernet lan
+
+Proxy - 
+VPN - Encrypt the client and server communication.
+Encryption/Decryption
+VPN act like a tunnel and make our connection encrypted.
+
+-----------------------VPN------------------------
+| Client(192.168.1.2) <------> Server(192.168.1.3)  |
+-----------------------VPN------------------------
+    10.10.10.2                   10.10.10.3
+
+-VPN use the outer address and it absolutely secured.
+Encryption -> clear text to cipher text
+Decryption -> cipher text to clear text
+
+
+Symmetric Encryption - Single Key
+Asymmetric Encryption - Public/Private Key
+***Three way handshake***
+SYN
+ACK-SYN
+ACK
+
+
+Hash: Hash cannot convert to string again.
+encrypt : can change cipher to text and text to cipher.
+
+Hash contains same length and encryption have diff length.
+
+Rockyou.txt file available in internet it has 1 crore combination of passwords.
+Hackers use this txt to crack the password.
+
+Bruteforce attack - match all combination of password to crack password is called brute force attack.
+
+Dictionary Attack - match a set of password like rockyou.txt to crack the password.
