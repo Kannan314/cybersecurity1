@@ -1,0 +1,11 @@
+Download Academy.7z
+
+Download Splung Enterprise
+
+cmd
+- ip link set dev ens33 up
+- dhclient -v ens33
+
+localhost port 8000
+
+SIEM tool - Security Information and Event Management
