@@ -1,0 +1,45 @@
+.bat - batch file
+- You can create a simple virus using .bat file.
+
+In windows
+- In notepad
+- type
+@echo off
+start cmd
+start powershell
+start ...
+which are all run along the run we can type
+
+- save as this file as filename.bat and select filetype as all files.
+
+IN linux
+-create .sh file shell file and write the batch file.
+
+Edit the environment variable
+enter to the environmental variable
+- System variable contains
+-add path system32 to run ipconfig and alse delete and replace the bat file.
+
+PING
+
+ping google.com -c 4 for linux
+ping google.com -n 4 for windows
+it can show all the websites ip address.
+
+
+
+Packet Tracer
+
+-same device use cross over wires.
+-diff device use straight through.
+-Connect two router using coaxial or serial dce wires.
+
+NIC - Network Interface Card : This card helps to use wifi.
+
+***********Ping uses ICMP protocol********
+
+Hub:
+- Hub runs with ip address so it send packet to all the pcs which are all connected to the hub.
+
+Switch:
+-Switch runs with both MAC address and Ip address.SO it can able to send another switch with same ip address of the pcs.
