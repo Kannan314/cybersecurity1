@@ -1,1 +1,55 @@
 ip.addr== 'ip address'
+ipconfig - show ip address of the system.
+
+where python = It will shows the directory of the python.exe.
+
+cd ../../../ - helps to fast navigation.
+
+echo "content" > filename.extension - create file name and write the content. && overwrite.
+
+echo "content2" >> filename.extension - append content2 in the file.
+
+cat filename - read the file contents.
+
+for cmd: more filename - to read the file contents.
+
+application ./filename = directly open file in the application (example: notepade ./test.txt)
+
+mkdir - to create a folder.
+
+mv ./src ./des - to move file.
+
+cp ./src ./des - to copy file.
+
+*****to run server ********
+python server: 
+python -m http.server 80 or mention any port number.
+  - It will run server for the ip address (i.e., ethernet ip ) and share the current directory. Using Ip others can download the files available in the directory. and the host can see every action and ip address of the user.
+
+cmd: dl 
+rm = to delete file
+
+HASHCALC:
+Get-FileHash filename -Algorithm md5 
+to see the hash value.
+
+Network Problem in Kali
+Network Manager Command Line Interface:
+sudo nmcli network on
+
+sudo service NetworkManager start
+sudo service NetworkManager restart
+sudo service NetworkManager stop
+
+
+*************Do as Super User -sudo**********
+
+cat /etc/apt/sources.list
+sudo nano /etc/apt/sources.list 
+- Change the http -> https for kali.org website.
+
+********Server for kali******
+sudo service apache2 start
+sudo service apache2 stop
+/var/www/html/index.html runs as default
+for windows 
