@@ -1,0 +1,82 @@
+Hashcalc:
+Get-FileHash filename - to get a hash value.
+
+Virustotal.com
+website helps to check virus using hash value of the file or url.
+
+WireShark:
+- Wireshark is a packet analyzer tool.
+- Statistics -> Protocol Heirarchy : to show the each and every layer of the OSI layer.
+filter: ip.addr == (ip address)
+For https:
+Three way handshake
+TLS layer - (Transport Layer Security) : Helps to share public key between client and server.
+Then work under Asymmetric encryption.
+
+
+Burp Suit: 
+Client -----> Burp Proxy -----> Server
+Goto Proxy -> Run browser -> http history to see every request of the webpage open in the web browser.
+User Agent : Mention the used browser.
+- Open Firefox
+- Add foxyproxy extension and add burp suite proxy with ip and port and on it.
+- Then it will able to use the http and u cannot open https.
+- http://burpsuite/ and download ca certificate and import the certificate to firefox settings.
+- Then we can use https server in the firefox.
+- And monitor http history in the burpsuite tool.
+
+HTTP/1.1 - http
+HTTP/2 - https
+
+GET v1/files/  HTTP/2
+Host - mobizilla.com
+
+https://mobizilla.com/v1/files
+Repeater:
+To find username or password - Send a specific request to repeater and change the required section and send it . It shows the kind of error. It helps to crack the password.
+Intruder:
+- Send the request to the intruder.
+- Select the payload position and click add to add position.
+- Go to payloads and paste the multiple password and start attack.
+Set scope
+- Go to target
+- Add include and exclude scopte url`
+ 
+
+
+ZAP(Zaproxy) : TO check the vulnerability of the url.
+Tenable Nessus : Every 90 days scsn 16 Ip address.
+
+OWASP top ten vulnerability
+How to detect and How to prevent ?
+
+
+Nikto
+WPscan
+Metasploit
+
+
+Angry Ip Scanner - to scan ip address
+terminalL: sudo netdiscover -r 172.1.42.45/16
+
+NIKTO: 
+- Helps to find the outdated vulnerability.
+nikto --url https://mkce.ac.in
+
+pimeyes - to search image to socail media account.
+
+
+Splung - Defence tool
+SIEM tool
+WIndows machine work as a server
+
+Splung Forwarder
+- helps to connect device to the server device.
+
+
+Nmap 
+- ftp
+Wfuzz - Fuzzing
+gpbuster
+dirb -Directory Bursting
+ffuf
