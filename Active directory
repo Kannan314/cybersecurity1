@@ -1,0 +1,29 @@
+download WIndows server 2019 iso
+install in VM-ware
+create new machine
+select the downloaded file in empty disk
+if error --> shut down VM-ware
+             edit the virtual machine --- floppy disk --- uncheck the power on
+select langage
+install ---> evaluation experience standard
+custom windows
+windows setup ---> delete other disk 
+one disk will deallocate with 4 disk
+next
+
+set password
+server manager
+add roles and features --> server roles 
+                          roles --> active directory domain services and DNS server check the box
+give next to the end 
+confirmation ---> check the restart automatically
+AD DS and DNS will be green
+click on ! --> 
+  promote
+  deployment configuration 
+    add new forest ---> name.local
+  domain controller option 
+    function level -- 2016 --> next
+  DNS option --> next
+next to the end
+then install
