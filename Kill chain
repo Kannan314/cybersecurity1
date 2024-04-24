@@ -1,0 +1,42 @@
+Cyber kill chain
+      Recon
+      weaponisation
+      delivery
+      exploitation
+      installation
+      command and control
+      Action on object
+
+Reconnaissance --> obtain info about the victim and develop a tactics to attack
+weponization   --> 
+delivery
+exploitation
+installation
+command and control
+Action on object
+
+Diamond model  ---->
+adversary      ===> attacker of cyber
+Victim         ===> person who is affected
+infrastructure ===> 
+capabilities   ===>
+
+clear text protocol --- http,ftp,Smtp
+
+reverse ,bind ,web 3 types of shell
+
+command line password crack ===>
+  online passwd crack -- burpsuite/Hydra
+
+
+read = 4; write = 2; execute = 1
+rwx   |  rwx  |    rwx
+ 7    |   7   |     7
+owner | group | domain users   
+                  (others)
+
+
+$ --- normal user
+# --- root user
+
+ps aux | grep openvpn
